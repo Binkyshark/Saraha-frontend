@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Send Message</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="signup.html">Signup</a>
+    <a href="login.html">Login</a>
+    <a href="send.html" class="active">Send</a>
+    <a href="messages.html">Messages</a>
+  </nav>
+
+  <div class="container">
+    <h2 class="center">Send a Message</h2>
+
+    <input type="text" id="receiverId" placeholder="Receiver ID" />
+    <textarea id="text" placeholder="Write your message..."></textarea>
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <script src="main.js"></script>
+  <script>
+    window.onload = function() {
+      protectPage();
+      // يمكنك إضافة كود آخر إذا أردت
+    }
+  </script>
+</body>
+</html>

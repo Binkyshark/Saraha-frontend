@@ -1,0 +1,238 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf8f4; /* vanilla background */
+  color: #4b3c2a;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 480px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #5c4438;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #c2a27e;
+  box-shadow: 0 0 5px #ecdcc5;
+}
+
+button {
+  background-color: #d8bfa4; /* latte button */
+  color: white;
+  font-weight: 600;
+  margin-top: 24px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #bfa184;
+}
+
+small {
+  font-size: 12px;
+  color: #777;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+.navbar {
+  background-color: #fef3c7;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  border-bottom: 1px solid #fcd34d;
+}
+
+.navbar a {
+  color: #6b4c3b;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #d97706;
+}
+.message-box {
+  background-color: #fffaf7;
+  border: 1px solid #eee;
+  border-left: 5px solid #f9a8d4;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.message-box strong {
+  color: #444;
+}
+
+.message-date {
+  margin-top: 10px;
+  font-size: 0.85em;
+  color: #999;
+  text-align: right;
+}
+.message-card {
+  background-color: #fffaf7;
+  border: 1px solid #eee;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.05);
+}
+.message-card button {
+  background-color: #f87171;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.message-card button:hover {
+  background-color: #dc2626;
+}
+
+.message-card button {
+  background-color: #d8bfa4; /* لون فانيليا لاتيه هادي */
+  color: #4b3c2a; /* لون النص بني غامق */
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-right: 10px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.message-card button:hover {
+  background-color: #bfa184; /* درجة أغمق عند المرور */
+  color: white;
+}
+
+.reply-btn {
+  background-color: #c2a27e; /* لون بني فاتح للرد */
+  color: #4b3c2a;
+}
+
+.reply-btn:hover {
+  background-color: #a2855a; /* أغمق عند المرور */
+  color: white;
+}
+.reply-container textarea {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  resize: vertical;
+  min-height: 60px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reply-container button.send-reply-btn {
+  background-color: #c2a27e; /* لون فاتح */
+  color: #4b3c2a;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.reply-container button.send-reply-btn:hover {
+  background-color: #a2855a;
+  color: white;
+}
+.wrapper {
+  max-width: 480px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #5c4438;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #c2a27e;
+  box-shadow: 0 0 4px #ecdcc5;
+}
+
+button[type="submit"] {
+  background-color: #d8bfa4;
+  color: white;
+  font-weight: 600;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #bfa184;
+}
+
+.note {
+  margin-top: 16px;
+  font-size: 14px;
+  text-align: center;
+}
